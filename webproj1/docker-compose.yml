@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  djangostuff:
+    image: assignment5.azurecr.io/stanley/webproj1:latest
+    build: .
+    ports:
+      - 8000:8000
